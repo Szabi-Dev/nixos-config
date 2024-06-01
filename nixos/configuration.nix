@@ -2,17 +2,25 @@
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 
-{ config, pkgs, ... }:
+{ config, pkgs, inputs,  ... }:
 
 {
   imports =
     [ # Include the results of the hardware scan.
+      inputs.home-manager.nixosModules.default
       ./hardware-configuration.nix
       ./packages/packages.nix
-      ./app-config/home.nix	
     ];
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
+
+  home-manager = {
+  	extraSpecialArgs = {inherit inputs; };
+	users = {
+	   "szabolcs" = import ./app-config/home.nix;
+	}; 
+  };
+
 
   # Bootloader.
   boot.loader.grub.enable = true;
