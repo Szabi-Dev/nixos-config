@@ -8,7 +8,6 @@
 	
 
     imports = [
-	./kitty/kitty.nix	
-	./desktop.nix
+	./kitty/kitty.nix
     ];
 }
