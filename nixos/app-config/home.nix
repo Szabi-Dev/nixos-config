@@ -9,5 +9,6 @@
 
     imports = [
 	./kitty/kitty.nix
+	./zsh/zsh.nix
     ];
 }
