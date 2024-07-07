@@ -1,0 +1,56 @@
+# java
+JDK_HOME=$HOME/.jdk/
+
+alias java-ls='ls $JDK_HOME' 
+
+java-use () 
+{
+    export JAVA_HOME="$JDK_HOME/$1/"
+}
+
+java-install-tar () 
+{
+    mkdir -p $JDK_HOME
+    if [ -d $JDK_HOME/$1 ]; then
+        echo "The specified version already exists"
+        exit 1
+    fi
+    mkdir -p $JDK_HOME/$1
+    cd $HOME/Downloads/
+    wget -O $1.tar.gz $2
+    tar -xzvf $1.tar.gz -C $JDK_HOME/$1 --strip-components 1
+    rm $1.tar.gz
+}
+
+# spring
+spring-profile () 
+{
+    export spring_profiles_active=$1
+}
+
+
+# gradle
+gradle-set-env () 
+{
+    java-use "$1"
+    spring-profile "$2"
+}
+
+
+gradle-debug () 
+{
+    gradle-set-env "$1" "$2"
+    ./gradlew bootRun --debug-jvm -x test
+}
+
+gradle-run () 
+{
+    gradle-set-env "$1" "$2"
+    ./gradlew bootRun -x test
+}
+
+gradle-test ()
+{
+    gradle-set-env "$1" "$2"
+    ./gradlew test -- "$@"
+}
