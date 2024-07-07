@@ -11,5 +11,15 @@
 	# container
 	pkgs.docker
  ];
+
+
+ virtualisation.docker = {
+	enable = true;
+	rootles = {
+	  enable = true;
+	  setSocketVariable = true;
+	}
+ }
+  
  
 }
