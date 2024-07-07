@@ -18,8 +18,8 @@
 	rootles = {
 	  enable = true;
 	  setSocketVariable = true;
-	}
- }
+	};
+ };
   
  
 }
