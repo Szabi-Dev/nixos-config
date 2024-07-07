@@ -6,6 +6,8 @@ home.packages = [
 	pkgs.zsh-syntax-highlighting
 	pkgs.zsh-autocomplete
 ];
+
+
 programs.zsh = {
   enable = true;
   enableCompletion = true;
@@ -16,5 +18,7 @@ programs.zsh = {
   };
 
 };
+
+users.users.szabolcs.shell = pkgs.zsh
 
 }
