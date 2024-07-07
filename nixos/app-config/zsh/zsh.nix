@@ -9,10 +9,6 @@ programs.zsh = {
   oh-my-zsh = {
   	enable = true;
 	theme = "robbyrussel";
-	plugins = [
-		"git"
-		"history"
-	];
   };
   history = {
     size = 10000;
