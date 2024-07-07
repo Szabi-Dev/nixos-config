@@ -7,7 +7,10 @@
 	pkgs.curl
 	#idea
  	pkgs.jetbrains.idea-ultimate
-
+	#browser
+	pkgs.brave
+	pkgs.chromium
+	
 	# container
 	pkgs.docker
  ];
