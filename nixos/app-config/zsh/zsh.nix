@@ -19,5 +19,5 @@ programs.zsh = {
 
 };
 
-users.defaultUserShell = pkgs.zsh;
+defaultUserShell = pkgs.zsh;
 }
