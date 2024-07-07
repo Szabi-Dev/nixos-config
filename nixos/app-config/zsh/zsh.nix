@@ -21,9 +21,9 @@ programs.zsh = {
 
 };
 
-xdg.configFile."zsh/aliases/general".source = ./alias/general
-xdg.configFile."zsh/aliases/java".source = ./alias/java
-xdg.configFile."zsh/aliases/node".source = ./alias/node
+xdg.configFile."zsh/aliases/general".source = ./alias/general;
+xdg.configFile."zsh/aliases/java".source = ./alias/java;
+xdg.configFile."zsh/aliases/node".source = ./alias/node;
 
 
 home.file.".zshrc".text = ''
@@ -35,6 +35,6 @@ home.file.".zshrc".text = ''
 	if [ -d "$ZSH_ALIAS_HOME" ]; then 
     		for FILE in $ZSH_ALIAS_HOME/* ; do source $FILE ; done
 	fi
-''
+'';
 
 }
