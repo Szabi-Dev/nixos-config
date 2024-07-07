@@ -19,6 +19,6 @@ programs.zsh = {
 
 };
 
-users.users.szabolcs.shell = pkgs.zsh
+users.users.szabolcs.shell = pkgs.zsh;
 
 }
