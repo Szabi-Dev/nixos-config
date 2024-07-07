@@ -4,13 +4,13 @@
 	pkgs.bat
 
 	pkgs.neofetch
-
+	# performance mointor
 	pkgs.btop
 	pkgs.htop
-
+	# compress
 	pkgs.unzip
 	pkgs.unrar
-	pkgs.7z
+	# vpn
 	pkgs.openvpn
   ];
 }
