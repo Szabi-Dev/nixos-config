@@ -96,6 +96,7 @@
     isNormalUser = true;
     description = "szabolcs";
     extraGroups = [ "networkmanager" "wheel" ];
+    shell = pkgs.zsh
     packages = with pkgs; [
     #  thunderbird
     ];

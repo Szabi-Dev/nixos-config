@@ -1,13 +1,5 @@
 { config, pkgs, ...} :
 {
-home.packages = [ 
-	pkgs.zsh 
-	pkgs.zsh-autosuggestions
-	pkgs.zsh-syntax-highlighting
-	pkgs.zsh-autocomplete
-];
-
-
 programs.zsh = {
   enable = true;
   enableCompletion = true;
@@ -19,5 +11,4 @@ programs.zsh = {
 
 };
 
-defaultUserShell = pkgs.zsh;
 }
