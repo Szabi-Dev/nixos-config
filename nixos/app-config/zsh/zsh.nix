@@ -8,7 +8,7 @@ programs.zsh = {
 
   oh-my-zsh = {
   	enable = true;
-	theme = "robbyrussel"
+	theme = "robbyrussel";
 	plugins = [
 		"git"
 		"history"
