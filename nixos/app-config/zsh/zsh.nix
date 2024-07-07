@@ -1,6 +1,10 @@
 { config, pkgs, ...} :
 {
-home.packages = [ pkgs.zsh ];
+home.packages = [ 
+	pkgs.zsh 
+	pkgs.zsh-autosuggestions
+	pkgs.zsh-autocomplete
+];
 programs.zsh = {
   enable = true;
   enableCompletion = true;
