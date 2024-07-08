@@ -1,7 +1,7 @@
 # java
 java-use () 
 {
-    export JAVA_HOME=$(echo "${JAVA_$1_HOME}")
+    export JAVA_HOME=$(printenv "JAVA_$1_HOME")
 }
 
 
