@@ -1,11 +1,7 @@
 # java
-JDK_HOME=$HOME/.jdk/
-
-alias java-ls='ls $JDK_HOME' 
-
 java-use () 
 {
-    export JAVA_HOME="$JDK_HOME/$1/"
+    export JAVA_HOME="$JAVA_$1_HOME"
 }
 
 java-install-tar () 
