@@ -5,8 +5,9 @@
 	pkgs.wget
 	pkgs.git
 	pkgs.curl
-	#idea
+	# editor
  	pkgs.jetbrains.idea-ultimate
+	pkgs.vim
 	#browser
 	pkgs.brave
 	pkgs.chromium
