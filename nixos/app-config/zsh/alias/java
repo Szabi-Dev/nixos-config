@@ -1,8 +1,9 @@
 # java
 java-use () 
 {
-    export JAVA_HOME="${JAVA_$1_HOME}"
+    export JAVA_HOME=$(echo "${JAVA_$1_HOME}")
 }
+
 
 # spring
 spring-profile () 
