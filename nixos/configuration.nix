@@ -10,7 +10,8 @@
       inputs.home-manager.nixosModules.default
       ./hardware-configuration.nix
       ./packages/packages.nix
-      ./settings/settings.nix	
+      ./settings/settings.nix
+      ./users/users.nix		
     ];
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
@@ -40,22 +41,8 @@
 	};
   };
 
-  # Enable CUPS to print documents.
-  services.printing.enable = true;
-
   
-programs.zsh.enable = true;
-
-  # Define a user account. Don't forget to set a password with ‘passwd’.
-  users.users.szabolcs = {
-    isNormalUser = true;
-    description = "szabolcs";
-    extraGroups = [ "networkmanager" "wheel" "docker" ];
-    shell = pkgs.zsh;
-    packages = with pkgs; [
-    	zsh
-    ];
-  };
+  programs.zsh.enable = true;
 
 
   # Allow unfree packages
