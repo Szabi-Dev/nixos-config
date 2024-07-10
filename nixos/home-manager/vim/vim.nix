@@ -6,6 +6,8 @@
     settings = { ignorecase = true; };
     extraConfig = ''
       set mouse=a
+      set number
+      set relativenumber
     '';
   };
 }
