@@ -11,5 +11,6 @@
 	./kitty/kitty.nix
 	./zsh/zsh.nix
 	./vscode/vscode.nix
+	./vim/vim.nix
     ];
 }
