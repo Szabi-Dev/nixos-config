@@ -9,18 +9,6 @@
     programs.vscode = {
   		enable = true;
 		  package = pkgs.vscode;
-  		userSettings = {
-        "workbench.startupEditor"= "none";
-        "workbench.colorTheme"= "Everforest Dark";
-        "workbench.iconTheme"= "vscode-icons";
-
-        "editor.fontFamily"= "Menlo, Monaco, 'Courier New', monospace";
-        "editor.fontSize"= "15";
-        "editor.minimap.enabled"= "false";
-        "editor.smoothScrolling"= "true";
-        "editor.suggest.insertMode"= "replace";
-        "editor.inlineSuggest.enabled"= "true";
-      };
       extensions = with pkgs.vscode-extensions; [
                   vscjava.vscode-java-debug
                   vscjava.vscode-java-dependency
