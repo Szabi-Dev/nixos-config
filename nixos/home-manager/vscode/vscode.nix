@@ -18,6 +18,7 @@
                   redhat.java
 
                   dracula-theme.theme-dracula
+                  chadalen.vscode-jetbrains-icon-theme
   		];
     };
 }
