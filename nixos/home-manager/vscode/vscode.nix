@@ -11,6 +11,6 @@
                   vscjava.vscode-maven
                   redhat.java
   		];
-        }
+        };
 };
 }
