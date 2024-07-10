@@ -7,7 +7,7 @@
                   vscjava.vscode-java-debug
                   vscjava.vscode-java-dependency
                   vscjava.vscode-java-test
-                  vscjava.vscode-spring-indditializr
+                  vscjava.vscode-spring-initializr
                   vscjava.vscode-maven
                   redhat.java
   		];
