@@ -1,6 +1,7 @@
 {
     "redhat.telemetry.enabled": true,
     
+    "java.jdt.ls.java.home": "",
     "workbench.startupEditor": "none",
     "workbench.colorTheme": "Everforest Dark",
     "workbench.iconTheme": "vscode-icons",
