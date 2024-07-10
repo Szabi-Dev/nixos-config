@@ -13,7 +13,7 @@
   		];
 
                 userSettings = {
-                  "java.configuration.runtimes": [
+                  "java.configuration.runtimes": "[
                    {
                        "name": "JavaSE-1.8",
                        "path": "${JAVA_8_HOME}",
@@ -22,7 +22,7 @@
                       "name": "JavaSE-17",
                       "path": "${JAVA_17_HOME}",
                       },
-                  ]
+                  ]"
                 }
 };
 }
