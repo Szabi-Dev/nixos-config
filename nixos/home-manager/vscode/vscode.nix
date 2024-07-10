@@ -9,9 +9,6 @@
     programs.vscode = {
   		enable = true;
 		  package = pkgs.vscode;
-      userSettings = {
-         "files.autoSave" = "off";
-      };
       extensions = with pkgs.vscode-extensions; [
                   vscjava.vscode-java-debug
                   vscjava.vscode-java-dependency
@@ -25,15 +22,28 @@
                   bbenoist.nix
 
                   vscode-icons-team.vscode-icons
-                ] ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
-
+      ] ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
                   {
                     name = "everforest";
                     publisher = "sainnhe";
                     version = "0.3.0";
                     sha256 = "1dbkk2nys97a825kvrmjh6qgjzfricllwjwh9qcsvmycbg6sp64x";
                   }
-                ];
-      };
+      ];
+    };
+
+  xdg.configFile."Code/User/settings.json".text = ''
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Everforest Dark",
+    "workbench.iconTheme": "vscode-icons",
+
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 15,
+    "editor.minimap.enabled": false,
+    "editor.smoothScrolling": true,
+    "editor.suggest.insertMode": "replace",
+    "editor.inlineSuggest.enabled": true,
+  '';
+
 }
 
