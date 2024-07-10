@@ -9,6 +9,9 @@
     programs.vscode = {
   		enable = true;
 		  package = pkgs.vscode;
+      userSettings = {
+         "files.autoSave" = "off";
+      };
       extensions = with pkgs.vscode-extensions; [
                   vscjava.vscode-java-debug
                   vscjava.vscode-java-dependency
@@ -31,6 +34,6 @@
                     sha256 = "1dbkk2nys97a825kvrmjh6qgjzfricllwjwh9qcsvmycbg6sp64x";
                   }
                 ];
-    };
+      };
 }
 
