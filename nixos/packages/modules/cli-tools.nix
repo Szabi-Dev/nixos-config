@@ -1,10 +1,11 @@
 { config, pkgs, ... }:
 {
    environment.systemPackages = with pkgs; [
-	pkgs.bat
-
+        #misc
+        pkgs.bat
+        pkgs.jq
 	pkgs.neofetch
-	# performance mointor
+	# performance monitor
 	pkgs.btop
 	pkgs.htop
 	# compress

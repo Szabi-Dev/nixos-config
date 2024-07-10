@@ -15,11 +15,20 @@
                   vscjava.vscode-java-test
                   vscjava.vscode-spring-initializr
                   vscjava.vscode-maven
+                  vscjava.vscode-gradle
                   redhat.java
 
-                  dracula-theme.theme-dracula
                   vscode-icons-team.vscode-icons
-  		];
+                ]; 
+                #++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
+#
+ #                 {
+ #                   name = "everforest";
+ #                   publisher = "sainnhe";
+ #                   version = "0.3.0";
+ #                   sha256 = "1hp6gjh4xp2m1xlm1jsdzxw9d8frkiidhph6nvl24d0h8z34w49g";
+ #                 }
+ #               ];
     };
 }
 
