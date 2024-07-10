@@ -18,6 +18,8 @@
                   vscjava.vscode-gradle
                   redhat.java
 
+                  bbenoist.nix
+
                   vscode-icons-team.vscode-icons
                 ] ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
 
