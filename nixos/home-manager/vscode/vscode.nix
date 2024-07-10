@@ -32,7 +32,7 @@
       ];
     };
 
-  xdg.configFile."Code/User/settings.json".source = ./settings/settins.json;
+  xdg.configFile."Code/User/settings.json".source = ./settings/settings.json;
 
 }
 
