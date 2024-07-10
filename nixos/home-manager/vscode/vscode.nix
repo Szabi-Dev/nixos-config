@@ -16,6 +16,8 @@
                   vscjava.vscode-spring-initializr
                   vscjava.vscode-maven
                   redhat.java
+
+                  dracula-theme.theme-dracula
   		];
     };
 }
