@@ -32,18 +32,18 @@
       ];
     };
 
-  xdg.configFile."Code/User/settings.json".text = ''
-    "workbench.startupEditor": "none",
-    "workbench.colorTheme": "Everforest Dark",
-    "workbench.iconTheme": "vscode-icons",
+  # xdg.configFile."Code/User/settings.json".text = ''
+  #   "workbench.startupEditor": "none",
+  #   "workbench.colorTheme": "Everforest Dark",
+  #   "workbench.iconTheme": "vscode-icons",
 
-    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontSize": 15,
-    "editor.minimap.enabled": false,
-    "editor.smoothScrolling": true,
-    "editor.suggest.insertMode": "replace",
-    "editor.inlineSuggest.enabled": true,
-  '';
+  #   "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+  #   "editor.fontSize": 15,
+  #   "editor.minimap.enabled": false,
+  #   "editor.smoothScrolling": true,
+  #   "editor.suggest.insertMode": "replace",
+  #   "editor.inlineSuggest.enabled": true,
+  # '';
 
 }
 
