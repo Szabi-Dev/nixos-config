@@ -20,7 +20,7 @@
   home-manager = {
   	extraSpecialArgs = {inherit inputs; };
 	users = {
-	   "szabolcs" = import ./app-config/home.nix;
+	   "szabolcs" = import ./home-manager/home.nix;
 	}; 
   };
 
