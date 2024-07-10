@@ -3,8 +3,6 @@
 	programs.vscode = {
   		enable = true;
   		extensions = with pkgs.vscode-extensions; [
-    			# appearence 
-    			sainnhe.everforest
   		];
 };
 }
