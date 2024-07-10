@@ -16,6 +16,7 @@
                   vscjava.vscode-spring-initializr
                   vscjava.vscode-maven
                   vscjava.vscode-gradle
+                  vscjava.vscode-spring-initializr
                   redhat.java
 
                   bbenoist.nix
