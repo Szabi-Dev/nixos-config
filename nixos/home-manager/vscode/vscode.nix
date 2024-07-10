@@ -16,6 +16,7 @@
                   vscjava.vscode-spring-initializr
                   vscjava.vscode-maven
                   redhat.java
+                  vmware.vscode-spring-boot
   		];
     };
 }
