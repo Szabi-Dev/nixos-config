@@ -18,6 +18,7 @@
                   redhat.java
 
                   dracula-theme.theme-dracula
+                  vscode-icons-team.vscode-icons
   		];
     };
 }
