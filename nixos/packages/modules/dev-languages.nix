@@ -3,6 +3,8 @@
   environment.systemPackages = with pkgs; [
 	pkgs.jdk8
 	pkgs.jdk17	
+
+        pkgs.python3
   ];
 
   environment.sessionVariables.JAVA_8_HOME="${pkgs.jdk8.home}";
