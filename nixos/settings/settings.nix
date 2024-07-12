@@ -1,7 +1,7 @@
 { config, pkgs, input, ... }:
 {
 	imports = [
-		./boot/grub.nix
+		./boot/default.nix
 		./audio/default.nix
 		./network/default.nix
 		./locale/default.nix
