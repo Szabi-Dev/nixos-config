@@ -30,10 +30,6 @@
                     sha256 = "1dbkk2nys97a825kvrmjh6qgjzfricllwjwh9qcsvmycbg6sp64x";
                   }
       ];
-
-      userSettings = {
-        "redhat.telemetry.enabled" = "true";  
-      };
     };
 
     
