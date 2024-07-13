@@ -2,6 +2,7 @@
     "redhat.telemetry.enabled": true,
     
     "java.jdt.ls.java.home": "",
+    
     "workbench.startupEditor": "none",
     "workbench.colorTheme": "Everforest Dark",
     "workbench.iconTheme": "vscode-icons",
@@ -12,4 +13,6 @@
     "editor.smoothScrolling": true,
     "editor.suggest.insertMode": "replace",
     "editor.inlineSuggest.enabled": true,
+    
+    "git.enableSmartCommit": true,
 }
