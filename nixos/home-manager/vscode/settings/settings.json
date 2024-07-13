@@ -15,4 +15,6 @@
     "editor.inlineSuggest.enabled": true,
     
     "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
 }
