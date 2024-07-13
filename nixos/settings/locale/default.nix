@@ -18,4 +18,12 @@
     LC_TIME = "hu_HU.UTF-8";
   };
 
+  services.xserver = {
+    layout = "us,de,hu";
+    xkb = {
+      variant = "";
+      options = "grp:win_space_toggle";
+    };
+  };
+
 }
