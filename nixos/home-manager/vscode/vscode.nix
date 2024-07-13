@@ -33,7 +33,7 @@
 
       userSettings = {
         "redhat.telemetry.enabled" = "true";  
-      }
+      };
     };
 
     
