@@ -4,6 +4,9 @@
        # email client
        pkgs.thunderbird
 
+       # wallpaper
+       variety
+
   ];
 
 }
