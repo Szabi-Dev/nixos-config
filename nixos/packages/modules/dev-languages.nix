@@ -1,8 +1,8 @@
 { config, pkgs, ...}:
 {
   environment.systemPackages = with pkgs; [
-	pkgs.jdk8
-	pkgs.jdk17	
+	      pkgs.jdk8
+	      pkgs.jdk17	
 
         pkgs.python3
   ];

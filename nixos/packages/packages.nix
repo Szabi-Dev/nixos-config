@@ -4,6 +4,7 @@
     ./modules/dev-tools.nix
     ./modules/cli-tools.nix
     ./modules/dev-languages.nix
+    ./modules/personal-tools.nix
   ];
   # ...
 }

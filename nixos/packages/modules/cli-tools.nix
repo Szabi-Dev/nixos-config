@@ -4,14 +4,14 @@
         #misc
         pkgs.bat
         pkgs.jq
-	pkgs.neofetch
-	# performance monitor
-	pkgs.btop
-	pkgs.htop
-	# compress
-	pkgs.unzip
-	pkgs.unrar
-	# vpn
-	pkgs.openvpn
+		pkgs.neofetch
+		# performance monitor
+		pkgs.btop
+		pkgs.htop
+		# compress
+		pkgs.unzip
+		pkgs.unrar
+		# vpn
+		pkgs.openvpn
   ];
 }
