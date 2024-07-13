@@ -1,19 +1,24 @@
+npm-use () {
+     export NPM_HOME=$(printenv "NPM_$1_HOME")
+}
+
+
 npm-start () 
 {
-    nvm use
-    npm start
+    npm-use $1
+    $NPM_HOME/bin/npm start
 }
 
 npm-install ()
 {
-    nvm use
-    npm install
+    npm-use $1
+    $NPM_HOME/bin/npm install
 }
 
 npm-test ()
 {
-    nvm use
-    npm test -- "$@"
+    npm-use $1
+    $NPM_HOME/bin/npm test -- "$@"
 }
 
 npm-test-headless ()
