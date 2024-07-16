@@ -10,7 +10,8 @@
 	#browser
 	pkgs.brave
 	pkgs.chromium
-	
+	# testing tools
+	pkgs.postman	
 	# container
 	pkgs.docker
  ];
