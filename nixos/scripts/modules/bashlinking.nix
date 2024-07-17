@@ -4,7 +4,7 @@
         deps = [ "binsh" ];
         text = ''
             standard_bash_path="/bin/bash"
-            nix_bash_path="/bin/sh/
+            nix_bash_path="/bin/sh/"
 
             if [ -e $standard_bash_path ]
             then
