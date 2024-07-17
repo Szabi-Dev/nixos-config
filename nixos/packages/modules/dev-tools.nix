@@ -14,6 +14,8 @@
 	pkgs.postman	
 	# container
 	pkgs.docker
+	# cryptography 
+	pkgs.openssl
  ];
 
 
