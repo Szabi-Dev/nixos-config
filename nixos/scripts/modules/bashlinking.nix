@@ -3,13 +3,14 @@
     system.activationScripts.binbash = {
         deps = [ "binsh" ];
         text = ''
-            bash_path="/bin/bash"
+            standard_bash_path="/bin/bash"
+            nix_bash_path="/bin/sh/
 
-            if [ -e $bash_path ]
+            if [ -e $standard_bash_path ]
             then
-                echo "$bash_path already exists"
+                echo "bashlinking-script: $standard_bash_path already exists"
             else
-                ln -s /bin/sh /bin/bash
+                ln -s "$nix_bash_path" "$standard_bash_path"
             fi
         '';
     };
