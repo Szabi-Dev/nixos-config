@@ -3,8 +3,8 @@
     system.activationScripts.binbash = {
         deps = [ "binsh" ];
         text = ''
-            standard_bash_path='/bin/bash'
-            nix_bash_path='/bin/sh/'
+            standard_bash_path="/bin/bash"
+            nix_bash_path="/bin/sh"
 
             if [ -L $standard_bash_path ]  
             then
