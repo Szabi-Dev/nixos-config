@@ -13,6 +13,7 @@
       ./settings/settings.nix
       ./users/users.nix		
       ./desktop/default.nix
+      ./scripts/scripts.nix
     ];
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];

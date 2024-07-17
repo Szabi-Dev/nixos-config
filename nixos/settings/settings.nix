@@ -5,6 +5,5 @@
 		./audio/default.nix
 		./network/default.nix
 		./locale/default.nix
-		./scripts/scripts.nix
 	];
 }
