@@ -5,6 +5,7 @@
 	pkgs.wget
 	pkgs.git
 	pkgs.curl
+	pkgs.gh
 	# editor
  	pkgs.jetbrains.idea-ultimate
 	#browser
