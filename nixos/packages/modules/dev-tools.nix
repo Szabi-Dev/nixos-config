@@ -8,6 +8,7 @@
 	pkgs.gh
 	# editor
  	pkgs.jetbrains.idea-ultimate
+	pkgs.jetbrains.idea-community
 	#browser
 	pkgs.brave
 	pkgs.chromium
