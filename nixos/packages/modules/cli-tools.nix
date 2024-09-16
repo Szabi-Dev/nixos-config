@@ -13,5 +13,7 @@
 		pkgs.unrar
 		# vpn
 		pkgs.openvpn
+		# clipboard
+		pkgs.xclip
   ];
 }
