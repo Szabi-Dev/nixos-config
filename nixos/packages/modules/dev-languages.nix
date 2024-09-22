@@ -6,7 +6,7 @@
 
         pkgs.python3
 
-        pkgs.nodejs_16
+        pkgs.nodejs_18
         pkgs.nodejs_20
         pkgs.nodejs_22
   ];
