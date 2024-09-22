@@ -16,7 +16,7 @@
   environment.sessionVariables.JAVA_HOME="${pkgs.jdk17.home}";  
 
 
-  environment.sessionVariables.NPM_16_HOME="${pkgs.nodejs_16}";
+  environment.sessionVariables.NPM_18_HOME="${pkgs.nodejs_18}";
   environment.sessionVariables.NPM_20_HOME="${pkgs.nodejs_20}";
   environment.sessionVariables.NPM_22_HOME="${pkgs.nodejs_22}";
 
