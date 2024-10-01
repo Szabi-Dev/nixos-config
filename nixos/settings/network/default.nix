@@ -10,6 +10,7 @@
          # Enable networking
          networking.networkmanager.enable = true;
 
-         # enable editing hosts               
-         environment.etc.hosts.mode = "0644";
+         networking.hosts = {
+                "127.0.0.1" = ["pipeshop.local"];
+        };
 }
