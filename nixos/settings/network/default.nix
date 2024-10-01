@@ -9,4 +9,7 @@
   
          # Enable networking
          networking.networkmanager.enable = true;
+
+         # enable editing hosts               
+         environment.etc.hosts.mode = "0644";
 }
