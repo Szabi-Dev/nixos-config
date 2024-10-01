@@ -18,6 +18,8 @@
 	pkgs.docker
 	# cryptography 
 	pkgs.openssl
+	# self signed certificates
+	pkgs.mkcert
  ];
 
 
