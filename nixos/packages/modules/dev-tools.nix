@@ -9,6 +9,7 @@
 	# editor
  	pkgs.jetbrains.idea-ultimate
 	pkgs.jetbrains.idea-community
+	pkgs.jetbrains.webstorm
 	#browser
 	pkgs.brave
 	pkgs.chromium
