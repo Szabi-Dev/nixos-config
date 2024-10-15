@@ -15,5 +15,7 @@
 		pkgs.openvpn
 		# clipboard
 		pkgs.xclip
+		# totp client
+		pkgs.cotp
   ];
 }
