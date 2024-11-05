@@ -5,7 +5,11 @@
 
    home.stateVersion="23.11";
    programs.home-manager.enable = true;
-	
+
+   home.file."projects".directory = {
+        user = "szabolcs;
+        permissions = "0750";
+   };
 
     imports = [
 	./kitty/kitty.nix
@@ -14,4 +18,6 @@
 	./vim/vim.nix
     ./variety/variety.nix
     ];
+
+
 }
