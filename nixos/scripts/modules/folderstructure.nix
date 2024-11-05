@@ -5,7 +5,7 @@
     system.activationScripts.binbash = {
         deps = [ "binsh" ];
         text = ''
-            mkdir -p $HOME/projects
+            mkdir -p "$HOME/projects"
         '';
     };
 }
