@@ -2,6 +2,7 @@
 {
     imports = [
         ./modules/bashlinking.nix
+        ./modules/folderstructure.nix
     ];
 
 }

@@ -1,0 +1,14 @@
+new-project () 
+{
+    mkdir -p $PROJECTS_HOME/$1/code
+    mkdir -p $PROJECTS_HOME/$1/kitty-session
+    mkdir -p $PROJECTS_HOME/$1/vpn
+    mkdir -p $PROJECTS_HOME/$1/environment
+    mkdir -p $PROJECTS_HOME/$1/documents
+    mkdir -p $PROJECTS_HOME/$1/data_dump
+}
+
+cd-project () 
+{
+    cd $PROJECTS_HOME/$1
+}
