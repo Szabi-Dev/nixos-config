@@ -27,6 +27,8 @@
  virtualisation.docker = {
 	enable = true;
  };
+
+ environment.sessionVariables.PROJECTS_HOME="$HOME/projects";
   
  
 }

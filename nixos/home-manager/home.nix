@@ -5,7 +5,6 @@
 
    home.stateVersion="23.11";
    programs.home-manager.enable = true;
-	
 
     imports = [
 	./kitty/kitty.nix
@@ -14,4 +13,6 @@
 	./vim/vim.nix
     ./variety/variety.nix
     ];
+
+
 }

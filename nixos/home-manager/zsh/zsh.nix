@@ -24,6 +24,7 @@ programs.zsh = {
 xdg.configFile."zsh/aliases/general".source = ./alias/general;
 xdg.configFile."zsh/aliases/java".source = ./alias/java;
 xdg.configFile."zsh/aliases/node".source = ./alias/node;
+xdg.configFile."zsh/aliases/node".source = ./alias/projects;
 
 
 home.file.".zshrc".text = ''
