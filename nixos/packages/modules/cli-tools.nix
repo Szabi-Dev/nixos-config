@@ -17,5 +17,7 @@
 		pkgs.xclip
 		# totp client
 		pkgs.cotp
+		# file manager
+		pkgs.yazi
   ];
 }
