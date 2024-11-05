@@ -1,11 +1,19 @@
 new-project () 
 {
+    if [ -d /path/to/directory ]; then
+        echo "Project structure already exists."
+        cd-project $1
+        return 0;
+    fi
+
     mkdir -p $PROJECTS_HOME/$1/code
     mkdir -p $PROJECTS_HOME/$1/kitty-session
     mkdir -p $PROJECTS_HOME/$1/vpn
     mkdir -p $PROJECTS_HOME/$1/environment
     mkdir -p $PROJECTS_HOME/$1/documents
     mkdir -p $PROJECTS_HOME/$1/data_dump
+
+    cd-project $1
 }
 
 cd-project () 
