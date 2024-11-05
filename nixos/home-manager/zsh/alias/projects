@@ -20,3 +20,17 @@ cd-project ()
 {
     cd $PROJECTS_HOME/$1
 }
+
+start-project () {
+    if [ ! -d $PROJECTS_HOME/$1 ]; then
+        echo "Project does not exist!"
+        return 0;
+    fi
+
+    if [ ! -f $PROJECTS_HOME/$1/kitty-session/default.config ]; then
+        echo "Default session config does not exist!"
+        return 0;
+    fi
+
+    kitty --session $PROJECTS_HOME/$1/kitty-session/default.config
+}
