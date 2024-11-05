@@ -1,6 +1,6 @@
 new-project () 
 {
-    if [ -d /path/to/directory ]; then
+    if [ -d $PROJECTS_HOME/$1 ]; then
         echo "Project structure already exists."
         cd-project $1
         return 0;
