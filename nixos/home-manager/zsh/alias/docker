@@ -1,0 +1,10 @@
+
+docker-running-container-ids () 
+{
+    docker ps -a -q
+}
+
+docker-stop-all ()
+{
+    docker stop $(docker-running-container-ids)
+}

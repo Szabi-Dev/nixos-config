@@ -25,6 +25,7 @@ xdg.configFile."zsh/aliases/general".source = ./alias/general;
 xdg.configFile."zsh/aliases/java".source = ./alias/java;
 xdg.configFile."zsh/aliases/node".source = ./alias/node;
 xdg.configFile."zsh/aliases/projects".source = ./alias/projects;
+xdg.configFile."zsh/aliases/docker".source = ./alias/docker;
 
 
 home.file.".zshrc".text = ''
