@@ -4,6 +4,7 @@
        # email client
        pkgs.thunderbird
        pkgs.unetbootin
+       pkgs.rpi-imager
   ];
 
 }
