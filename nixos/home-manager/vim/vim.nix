@@ -2,7 +2,10 @@
 {
  programs.vim = {
     enable = true;
-    plugins = with pkgs.vimPlugins; [ vim-airline ];
+    plugins = with pkgs.vimPlugins; [ 
+      vim-airline 
+      fzf-vim
+    ];
     settings = { ignorecase = true; };
     extraConfig = ''
       set mouse=a
