@@ -21,6 +21,8 @@
 	pkgs.openssl
 	# self signed certificates
 	pkgs.mkcert
+    # ai assistant in terminal
+    pkgs.aider-chat
  ];
 
 
