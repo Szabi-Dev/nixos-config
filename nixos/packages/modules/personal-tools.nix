@@ -5,6 +5,8 @@
        pkgs.thunderbird
        pkgs.unetbootin
        pkgs.rpi-imager
+       pkgs.libreoffice-still
+
   ];
 
 }
