@@ -26,7 +26,6 @@
   };
 
   programs.zsh.enable = true;
-  services.openssh.enable = true;
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
