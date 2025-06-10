@@ -9,6 +9,8 @@
 
         pkgs.rustup
 
+        pkgs.libgcc
+
         pkgs.nodejs_18
         pkgs.nodejs_20
         pkgs.nodejs_22
