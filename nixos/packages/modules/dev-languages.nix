@@ -7,6 +7,8 @@
 
         pkgs.python3
 
+        pkgs.rustup
+
         pkgs.nodejs_18
         pkgs.nodejs_20
         pkgs.nodejs_22
