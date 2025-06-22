@@ -11,7 +11,6 @@
 
         pkgs.libgcc
 
-        pkgs.nodejs_18
         pkgs.nodejs_20
         pkgs.nodejs_22
   ];
@@ -21,8 +20,6 @@
   environment.sessionVariables.JAVA_21_HOME="${pkgs.jdk21.home}";
   environment.sessionVariables.JAVA_HOME="${pkgs.jdk17.home}";  
 
-
-  environment.sessionVariables.NPM_18_HOME="${pkgs.nodejs_18}";
   environment.sessionVariables.NPM_20_HOME="${pkgs.nodejs_20}";
   environment.sessionVariables.NPM_22_HOME="${pkgs.nodejs_22}";
 
