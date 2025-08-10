@@ -19,5 +19,9 @@
 		pkgs.cotp
 		# file manager
 		pkgs.yazi
+        # ls on superpower
+        pkgs.eza
+        # fuzzy finder 
+        pkgs.fzf
   ];
 }
