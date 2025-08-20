@@ -23,6 +23,7 @@
 	pkgs.mkcert
     # ai assistant in terminal
     pkgs.aider-chat
+	pkgs.inkscape
  ];
 
 
