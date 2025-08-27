@@ -24,6 +24,7 @@
     # ai assistant in terminal
     pkgs.aider-chat
 	pkgs.inkscape
+	pkgs.lazygit
  ];
 
 
