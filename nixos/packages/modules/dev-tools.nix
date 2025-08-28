@@ -25,6 +25,8 @@
     pkgs.aider-chat
 	pkgs.inkscape
 	pkgs.lazygit
+    pkgs.dbeaver-bin
+
  ];
 
 
